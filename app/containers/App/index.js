@@ -13,6 +13,14 @@
 
 import React from 'react';
 
+/* import individual components */
+import Navigation from 'components/Navigation';
+
+/* import style elements */
+import 'sanitize.css/sanitize.css';
+import 'bulma/css/bulma.min.css';
+import styles from './styles.css';
+
 export default class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   static propTypes = {
@@ -22,7 +30,10 @@ export default class App extends React.Component { // eslint-disable-line react/
   render() {
     return (
       <div>
-        {this.props.children}
+        <Navigation />
+        <div>
+          {this.props.children}
+        </div>
       </div>
     );
   }
