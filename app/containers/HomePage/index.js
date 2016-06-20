@@ -14,6 +14,7 @@ import React from 'react';
 /* import components */
 import Banner from 'components/Banner';
 import Section from 'components/Section';
+import UnorderedList from 'components/UnorderedList';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
@@ -53,23 +54,99 @@ export default class HomePage extends React.Component { // eslint-disable-line r
 
           <p>HealthLX is a partner-oriented solution that makes integration
           a differentiator by leveraging the following elements:</p>
-          <div className="columns">
-            <div className="column">
-              <ul>
-                <li> A seamless integration platform that includes a comprehensive range
-                of data adapters needed to connect your systems to multiple message
-                formats and enables the creation of composite applications that preserve
-                and extend previous software investments</li>
-                <li>A unified application framework that is built upon a globally recognized
-                open source integration application suite</li>
-                <li>An architecture that provides ease-of-use and enables rapid project
-                completion</li>
-                <li>A services-driven outsourced solution approach that allows end customers
-                to focus on their business first, not integration challenges which
-                require hard-to-find, competent and responsive technical staff.</li>
-              </ul>
-            </div>
-          </div>
+          <br />
+
+          <UnorderedList>
+            <li> A seamless integration platform that includes a comprehensive range
+            of data adapters needed to connect your systems to multiple message
+            formats and enables the creation of composite applications that preserve
+            and extend previous software investments</li>
+            <li>A unified application framework that is built upon a globally recognized
+            open source integration application suite</li>
+            <li>An architecture that provides ease-of-use and enables rapid project
+            completion</li>
+            <li>A services-driven outsourced solution approach that allows end customers
+            to focus on their business first, not integration challenges which
+            require hard-to-find, competent and responsive technical staff.</li>
+          </UnorderedList>
+          <br />
+
+          <p>This approach to the market enables us to build pathways to allow patient
+          data to be consumed by applications that can change healthcare for the better.
+          We offer the following platform:</p>
+          <br />
+
+          <UnorderedList>
+            <li>Software Platform → HealthLX integration Engine</li>
+            <li>API Connectors → HealthLX Community Connectors</li>
+            <li>Integration Applications → HealthLX CCD Viewer</li>
+            <li>Implementation Services → HealthLX Professional Services</li>
+            <li>Data Management Services → HealthLX DMS</li>
+          </UnorderedList>
+        </Section>
+        <Section
+          title="Why This Matters"
+        >
+          <p>The U.S. healthcare system is at an inflection point. Driven by years
+          of investments in EHR systems, healthcare organizations today have large
+          and growing repositories of data with limited means to share that information.
+          It’s as if up until now, all this work to collect data was made to be stored
+          only - instead of being shared.</p>
+          <br />
+
+          <p>Healthcare continues to evolve and innovate with new and emerging clinical,
+          administrative, patient and member engagement, and analytics solutions.
+          Optimizing these solutions requires data that is stored in EHRs,
+          HIEs and other locations where patient data exists. Today, healthcare is
+          a landscape of different languages each well-intentioned but lacking in
+          the ability to translate messages between themselves.</p>
+          <br />
+
+          <p>Beyond data access, data security, speed, and auditability are also vitally
+          important to a healthcare environment that is interoperable.</p>
+          <br />
+
+          <p>In summary, few proven capabilities and best practices exist today to manage
+          the creation of system-to-system connections and the transactions and data that
+          flow between them built upon</p>
+          <br />
+
+          <p>HealthLX was created to bridge this gap, and to provide healthcare solutions
+          firms and integrators the ability to bring greater integration depth and
+          differentiation to their clients, ultimately benefiting the entire healthcare
+          ecosystem.</p>
+        </Section>
+        <Section
+          type="dark"
+          title="New Section"
+        >
+          <p>We partner with healthcare application entities that are focused on revolutionizing
+          healthcare. Working with these partners, we are building out the needed connectors to
+          address the needs of modern healthcare integration challenges.</p>
+          <br />
+
+          <p>We closely monitor the changing world of integration standards being established
+          by our colleagues at these organizations</p>
+          <br />
+
+          <UnorderedList>
+            <li>HL7.org and their FHIR initiatives</li>
+            <li>Office of National Coordination (ONC)</li>
+            <li>Workgroup for Electronic Data Interchange (WEDI)</li>
+            <li>Commercial innvators such as @Redoxengine</li>
+            <li>Existing interoperable standards such as ‘DirectConnect’ and ‘BlueButton’</li>
+            <li>Standards bodies such as Commonwell, The Sequoia Project and The #CareQuality inititiatives</li>
+          </UnorderedList>
+          <br />
+
+          <p>We then incorporate the best approaches necessary to support the application community
+          delivering solutions to end customers whether they are providers, payers or patients.
+          We believe we should build, support and maintain the best available solution approach
+          available in the marketplace. We’re not narrowly invested in limiting technologies but
+          instead embrace the contributions of the technical communities striving to solve the
+          challenges in the marketplace.</p>
+          <br />
+
         </Section>
       </div>
     );
