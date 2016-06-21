@@ -53,7 +53,7 @@ function Banner(props) {
 Banner.propTypes = {
   topText: React.PropTypes.any,
   centerHighlight: React.PropTypes.any,
-  linkLocation: React.PropTypes.String,
+  linkLocation: React.PropTypes.string,
   subtitle: React.PropTypes.any,
   bottomText: React.PropTypes.any,
 };

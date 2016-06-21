@@ -118,7 +118,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
         </Section>
         <Section
           type="dark"
-          title="New Section"
+          title="Our Committment to Interoperability"
         >
           <p>We partner with healthcare application entities that are focused on revolutionizing
           healthcare. Working with these partners, we are building out the needed connectors to
@@ -147,6 +147,68 @@ export default class HomePage extends React.Component { // eslint-disable-line r
           challenges in the marketplace.</p>
           <br />
 
+        </Section>
+        <Section
+          title="What We Can Accomplish Together"
+          subtitle="Make integration a differentiator for your solution"
+        >
+          <p>Competitive advantage is harder and harder to create. Working together we can make
+          integration excellence a differentiator for you and your solution in the marketplace in
+          the following ways:</p>
+          <br />
+
+          <UnorderedList>
+            <li>Introduce integration early in the sales cycle</li>
+            <li>A more deeply integrated solution is more valuable to your client and stickier for you</li>
+          </UnorderedList>
+          <br />
+
+          <p>Deliver integration leadership and solution excellence to your clients without
+          making the internal investments or expert hires. We offer two ways to partner
+          together with healthcare solutions firms and integrators:</p>
+          <br />
+
+          <UnorderedList>
+            <li>An OEM program that allows you to brand and resell the full HealthLX solution spectrum</li>
+            <li>An outsourcing program that allows you to sell a fully outsourced HealthLX solution.</li>
+          </UnorderedList>
+          <br />
+
+          <p>We’ve developed a partnering framework to collaborate with you to build an
+          interoperability solution and partnering infrastructure, and to work as partners
+          in meeting your client interoperability needs.</p>
+          <br />
+
+          <p>We look forward to learning more about your specific needs and capabilities
+          and developing a solution model that is right for your and your clients.</p>
+          <br />
+        </Section>
+        <Section
+          type="dark"
+          title="About Us"
+        >
+          <p>HealthLX was created in collaboration with partners of our parent company, TESCHGlobal.
+          Building on the expertise of a globally recognized consulting organization and successes
+          on multiple projects within the healthcare space, our collaborating on a more advanced
+          solution to interoperability was both timely and inevitable.</p>
+          <br />
+
+          <p>We focus our efforts on the need in the healthcare marketplace that exists on
+          the edge of provider applications and payor software solutions. A space that healthcare
+          solutions firms have difficulty reaching.</p>
+          <br />
+
+          <p>Today, we believe that our merger of best-in-class enterprise integration software,
+          experienced healthcare subject matter expertise and best practices disciplines for enterprise
+          integration can uniquely lead you and your organization to make integration a differentiator
+          for you and your clients.</p>
+          <br />
+        </Section>
+
+        <Section
+          title="news"
+        >
+          <p>No news is good news</p>
         </Section>
       </div>
     );

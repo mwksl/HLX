@@ -9,11 +9,12 @@ function Section(props) {
     <section className={`section ${background}`}>
       <div className="container">
         <div className="heading">
-          <h1 className="title">{props.title}</h1>
+          <h1 className={`title title${background}`}>{props.title}</h1>
           <h2 className="subtitle">
             {props.subtitle}
           </h2>
         </div>
+        <hr />
         {props.children}
       </div>
     </section>
@@ -21,9 +22,9 @@ function Section(props) {
 }
 
 Section.propTypes = {
-  type: React.PropTypes.String,
-  title: React.PropTypes.String,
-  subtitle: React.PropTypes.String,
+  type: React.PropTypes.string,
+  title: React.PropTypes.string,
+  subtitle: React.PropTypes.string,
   children: React.PropTypes.node.isRequired,
 };
 
