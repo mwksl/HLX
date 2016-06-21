@@ -206,7 +206,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
         </Section>
 
         <Section
-          title="news"
+          title="News"
         >
           <p>No news is good news</p>
         </Section>
