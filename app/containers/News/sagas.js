@@ -20,7 +20,7 @@ export default [
 export function* getTwitterData() {
   while (true) {
     yield take(LOAD_TWEETS);
-    const requestURL = 'https://api.github.com/users/mwksl/repos?type=all&sort=updated';
+    const requestURL = 'twitter';
 
     // Use call from redux-saga
     const tweets = yield call(request, requestURL);

@@ -1,6 +1,7 @@
 import React from 'react';
 
-/* import styles from './styles.css'; */
+import styles from './styles.css';
+import Header from './header.jpg';
 
 /* Hero Banner
  * A large vertically-centered full-page-width section for highlighting
@@ -14,8 +15,32 @@ import React from 'react';
  */
 
 function Banner(props) {
+  const bannerBody = props.linkLocation ? (
+    <div className="hero-body">
+      <div className="container has-text-centered">
+        <h3 className="title is-2">
+          <a href={`${props.linkLocation}`}>
+          {props.centerHighlight}
+          </a>
+        </h3>
+        <h4 className="subtitle is-4">{props.subtitle}</h4>
+      </div>
+    </div>
+  ) : (
+    <div className="hero-body">
+      <div className="container has-text-centered">
+        <h3 className="title is-2">
+          {props.centerHighlight}
+        </h3>
+        <h4 className="subtitle is-4">{props.subtitle}</h4>
+      </div>
+    </div>
+  );
   return (
-    <section className="hero is-fullheight is-primary is-bold">
+    <section
+      className="hero is-medium is-primary is-bold"
+      style={{ backgroundImage: Header }}
+    >
       <div className="hero-head">
         <div className="container">
           <div className="tabs is-centered">
@@ -26,16 +51,7 @@ function Banner(props) {
         </div>
       </div>
 
-      <div className="hero-body">
-        <div className="container has-text-centered">
-          <h3 className="title is-2">
-            <a href={`${props.linkLocation}`}>
-            {props.centerHighlight}
-            </a>
-          </h3>
-          <h4 className="subtitle is-4">{props.subtitle}</h4>
-        </div>
-      </div>
+      {bannerBody}
 
       <div className="hero-foot">
         <div className="container">

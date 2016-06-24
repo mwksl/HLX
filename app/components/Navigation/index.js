@@ -6,7 +6,7 @@ function Navigation() {
   return (
     <nav className="nav" style={{ backgroundColor: 'darkcyan' }}>
       <div className="nav-left">
-        <a className="nav-item" href="#">
+        <a className="nav-item" href="/">
           <img src="/images/bulma.png" alt="HealthLX logo" style={{ color: 'white' }} />
         </a>
       </div>
@@ -18,13 +18,13 @@ function Navigation() {
       </span>
 
       <div className="nav-right nav-menu">
-        <a className="nav-item" style={{ color: 'white' }} href="#">
+        <a className="nav-item" style={{ color: 'white' }} href="/">
           Home
         </a>
-        <a className="nav-item" style={{ color: 'white' }} href="#">
+        <a className="nav-item" style={{ color: 'white' }} href="http://portal.healthlx.com">
           Portal
         </a>
-        <a className="nav-item" style={{ color: 'white' }} href="#">
+        <a className="nav-item" style={{ color: 'white' }} href="/blog">
           Blog
         </a>
 

@@ -23,7 +23,6 @@ export default class HomePage extends React.Component { // eslint-disable-line r
       <div>
         <Banner
           centerHighlight="HealthLX"
-          linkLocation="https://www.healthlx.com"
           subtitle="It's pretty cool"
         />
         <Section
@@ -37,7 +36,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
           both literally and figuratively. We recognize this challenge and embrace it.</p>
         </Section>
         <Section
-          type="dark"
+          dark
           title="The HealthLX Solution"
         >
           <p>HealthLX stands for ‘healthcare language exchange’. We created HealthLX to
@@ -117,7 +116,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
           ecosystem.</p>
         </Section>
         <Section
-          type="dark"
+          dark
           title="Our Committment to Interoperability"
         >
           <p>We partner with healthcare application entities that are focused on revolutionizing
@@ -184,7 +183,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
           <br />
         </Section>
         <Section
-          type="dark"
+          dark
           title="About Us"
         >
           <p>HealthLX was created in collaboration with partners of our parent company, TESCHGlobal.
