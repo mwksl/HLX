@@ -10,3 +10,12 @@
 .titledark {
   color: aqua;
 }
+
+.highlight {
+  background-color: rgb(83, 204, 255);
+  color: white;
+}
+
+.titlehighlight {
+  color: white;
+}

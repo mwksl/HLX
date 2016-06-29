@@ -22,7 +22,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
     return (
       <div>
         <Banner
-          centerHighlight="HealthLX"
+          centerHighlight="A Revolutionary Healthcare Solution"
           subtitle="It's pretty cool"
         />
         <Section
@@ -148,6 +148,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
 
         </Section>
         <Section
+          highlight
           title="What We Can Accomplish Together"
           subtitle="Make integration a differentiator for your solution"
         >
