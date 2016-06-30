@@ -13,8 +13,11 @@ import React from 'react';
 
 /* import components */
 import Banner from 'components/Banner';
+import Callout from 'components/Callout';
 import Section from 'components/Section';
 import UnorderedList from 'components/UnorderedList';
+
+import Web from './callout.jpg';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
@@ -83,6 +86,10 @@ export default class HomePage extends React.Component { // eslint-disable-line r
             <li>Data Management Services → HealthLX DMS</li>
           </UnorderedList>
         </Section>
+        <Callout
+          text="What would you do if your healthcare systems could communicate?"
+          src={Web}
+        />
         <Section
           title="Why This Matters"
         >

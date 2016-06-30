@@ -36,7 +36,7 @@ function Section(props) {
       <div className="container">
         <div className="heading">
           <h1 className={`title ${styles.titlehighlight}`}>{props.title}</h1>
-          <h2 className="subtitle">
+          <h2 className={`subtitle ${styles.subTitleHigh}`}>
             {props.subtitle}
           </h2>
         </div>
@@ -61,6 +61,7 @@ function Section(props) {
   return (
     <div>
       {props.highlight ? highlight : sectionBody}
+
     </div>
   );
 }

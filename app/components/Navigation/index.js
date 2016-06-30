@@ -1,13 +1,14 @@
 import React from 'react';
 
-/* import styles from './styles.css'; */
+import Logo from './logo.png';
 
 function Navigation() {
+  const navColor = 'rgb(130, 183, 223)';
   return (
-    <nav className="nav" style={{ backgroundColor: 'darkcyan' }}>
+    <nav className="nav" style={{ background: navColor }}>
       <div className="nav-left">
         <a className="nav-item" href="/">
-          <img src="/images/bulma.png" alt="HealthLX logo" style={{ color: 'white' }} />
+          <img src={Logo} alt="HealthLX logo" />
         </a>
       </div>
 

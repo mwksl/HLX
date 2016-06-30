@@ -39,7 +39,7 @@ function Banner(props) {
   return (
     <section
       className="hero is-medium is-primary is-bold"
-      style={{ backgroundImage: Header }}
+      style={{ backgroundImage: `url(${Header})` }}
     >
       <div className="hero-head">
         <div className="container">
