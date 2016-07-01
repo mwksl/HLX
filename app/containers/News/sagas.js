@@ -13,7 +13,7 @@ import request from 'utils/request';
 
 // Bootstrap sagas
 export default [
-  getTwitterData,
+
 ];
 
 // Individual exports for testing

@@ -19,7 +19,6 @@ import Navigation from 'components/Navigation';
 /* import style elements */
 import 'sanitize.css/sanitize.css';
 import 'bulma/css/bulma.min.css';
-import styles from './styles.css';
 
 export default class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
 

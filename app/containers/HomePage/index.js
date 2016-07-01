@@ -26,7 +26,7 @@ export default class HomePage extends React.Component { // eslint-disable-line r
       <div>
         <Banner
           centerHighlight="A Revolutionary Healthcare Solution"
-          subtitle="It's pretty cool"
+          subtitle=""
         />
         <Section
           title="Interoperability"

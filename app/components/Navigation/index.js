@@ -3,7 +3,6 @@ import React from 'react';
 import Logo from './logo.png';
 
 function Navigation() {
-  const isActive = 'is-active';
   const navColor = 'rgb(130, 183, 223)';
   return (
     <nav className="nav" style={{ background: navColor }}>
@@ -13,21 +12,18 @@ function Navigation() {
         </a>
       </div>
 
-      <span className={`nav-toggle ${isActive}`} onClick={isActive}>
+      <span className="nav-toggle">
         <span></span>
         <span></span>
         <span></span>
       </span>
 
-      <div className={`nav-right nav-menu ${isActive}`}>
+      <div className="nav-right nav-menu">
         <a className="nav-item" style={{ color: 'white' }} href="/">
           Home
         </a>
         <a className="nav-item" style={{ color: 'white' }} href="http://portal.healthlx.com">
           Portal
-        </a>
-        <a className="nav-item" style={{ color: 'white' }} href="/blog">
-          Blog
         </a>
 
         <span className="nav-item">

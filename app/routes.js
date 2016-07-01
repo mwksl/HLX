@@ -33,7 +33,7 @@ export default function createRoutes(store) {
 
         importModules.catch(errorLoading);
       },
-    },    {
+    }, {
       path: '/news',
       name: 'news',
       getComponent(nextState, cb) {
